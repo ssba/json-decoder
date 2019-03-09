@@ -65,6 +65,11 @@ class JsonDecoder
     public function decodeArray($jsonArrayData, $classType)
     {
         $instance = new $classType();
+        $propertyname = "transformer";
+        $transformer = $instance::$$propertyname;
+
+        if(!is_null($transformer))
+            $this->register(new $transformer());
 
         if (array_key_exists($classType, $this->transformers)) {
             $instance = $this->transform($this->transformers[$classType], $jsonArrayData, $instance);
