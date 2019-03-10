@@ -1,11 +1,11 @@
 <?php
 
-namespace Karriere\JsonDecoder\Bindings;
+namespace ssba\JsonDecoder\Bindings;
 
-use Karriere\JsonDecoder\Binding;
-use Karriere\JsonDecoder\Exceptions\JsonValueException;
-use Karriere\JsonDecoder\JsonDecoder;
-use Karriere\JsonDecoder\PropertyAccessor;
+use ssba\JsonDecoder\Binding;
+use ssba\JsonDecoder\Exceptions\JsonValueException;
+use ssba\JsonDecoder\JsonDecoder;
+use ssba\JsonDecoder\PropertyAccessor;
 
 class ArrayBinding implements Binding
 {

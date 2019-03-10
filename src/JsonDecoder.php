@@ -1,8 +1,8 @@
 <?php
 
-namespace Karriere\JsonDecoder;
+namespace ssba\JsonDecoder;
 
-use Karriere\JsonDecoder\Bindings\RawBinding;
+use ssba\JsonDecoder\Bindings\RawBinding;
 
 class JsonDecoder
 {

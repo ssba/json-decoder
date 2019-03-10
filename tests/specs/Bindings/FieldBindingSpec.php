@@ -1,11 +1,11 @@
 <?php
 
-namespace tests\specs\Karriere\JsonDecoder\Bindings;
+namespace tests\specs\ssba\JsonDecoder\Bindings;
 
-use Karriere\JsonDecoder\Bindings\FieldBinding;
-use Karriere\JsonDecoder\Exceptions\JsonValueException;
-use Karriere\JsonDecoder\JsonDecoder;
-use Karriere\JsonDecoder\PropertyAccessor;
+use ssba\JsonDecoder\Bindings\FieldBinding;
+use ssba\JsonDecoder\Exceptions\JsonValueException;
+use ssba\JsonDecoder\JsonDecoder;
+use ssba\JsonDecoder\PropertyAccessor;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 

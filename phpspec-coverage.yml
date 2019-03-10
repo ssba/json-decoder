@@ -1,7 +1,7 @@
 suites:
     main:
-        namespace: Karriere\JsonDecoder
-        psr4_prefix: Karriere\JsonDecoder
+        namespace: ssba\JsonDecoder
+        psr4_prefix: ssba\JsonDecoder
         src_path: src
         spec_prefix: tests\specs
 

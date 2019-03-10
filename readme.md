@@ -11,7 +11,7 @@ This package contains a JsonDecoder implementation that allows you to convert yo
 ## Installation
 You can install the package via composer
 ```
-composer require karriere/json-decoder
+composer require ssba/json-decoder
 ```
 
 ## Usage

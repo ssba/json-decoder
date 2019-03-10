@@ -1,6 +1,6 @@
 <?php
 
-namespace Karriere\JsonDecoder\Exceptions;
+namespace ssba\JsonDecoder\Exceptions;
 
 class InvalidBindingException extends \Exception
 {

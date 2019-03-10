@@ -1,12 +1,12 @@
 <?php
 
-namespace tests\specs\Karriere\JsonDecoder;
+namespace tests\specs\ssba\JsonDecoder;
 
-use Karriere\JsonDecoder\Binding;
-use Karriere\JsonDecoder\ClassBindings;
-use Karriere\JsonDecoder\Exceptions\InvalidBindingException;
-use Karriere\JsonDecoder\JsonDecoder;
-use Karriere\JsonDecoder\PropertyAccessor;
+use ssba\JsonDecoder\Binding;
+use ssba\JsonDecoder\ClassBindings;
+use ssba\JsonDecoder\Exceptions\InvalidBindingException;
+use ssba\JsonDecoder\JsonDecoder;
+use ssba\JsonDecoder\PropertyAccessor;
 use PhpSpec\ObjectBehavior;
 
 class ClassBindingsSpec extends ObjectBehavior

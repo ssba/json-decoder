@@ -1,9 +1,9 @@
 <?php
 
-namespace Karriere\JsonDecoder\Bindings;
+namespace ssba\JsonDecoder\Bindings;
 
-use Karriere\JsonDecoder\Binding;
-use Karriere\JsonDecoder\JsonDecoder;
+use ssba\JsonDecoder\Binding;
+use ssba\JsonDecoder\JsonDecoder;
 
 class RawBinding implements Binding
 {

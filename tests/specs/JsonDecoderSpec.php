@@ -1,11 +1,11 @@
 <?php
 
-namespace tests\specs\Karriere\JsonDecoder;
+namespace tests\specs\ssba\JsonDecoder;
 
-use Karriere\JsonDecoder\Bindings\CallbackBinding;
-use Karriere\JsonDecoder\ClassBindings;
-use Karriere\JsonDecoder\JsonDecoder;
-use Karriere\JsonDecoder\Transformer;
+use ssba\JsonDecoder\Bindings\CallbackBinding;
+use ssba\JsonDecoder\ClassBindings;
+use ssba\JsonDecoder\JsonDecoder;
+use ssba\JsonDecoder\Transformer;
 use PhpSpec\ObjectBehavior;
 
 class JsonDecoderSpec extends ObjectBehavior

@@ -1,8 +1,8 @@
 <?php
 
-namespace tests\specs\Karriere\JsonDecoder;
+namespace tests\specs\ssba\JsonDecoder;
 
-use Karriere\JsonDecoder\PropertyAccessor;
+use ssba\JsonDecoder\PropertyAccessor;
 use PhpSpec\ObjectBehavior;
 use PhpSpec\Wrapper\Collaborator;
 use Prophecy\Argument;

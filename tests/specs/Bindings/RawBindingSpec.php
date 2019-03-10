@@ -1,10 +1,10 @@
 <?php
 
-namespace tests\specs\Karriere\JsonDecoder\Bindings;
+namespace tests\specs\ssba\JsonDecoder\Bindings;
 
-use Karriere\JsonDecoder\Bindings\RawBinding;
-use Karriere\JsonDecoder\JsonDecoder;
-use Karriere\JsonDecoder\PropertyAccessor;
+use ssba\JsonDecoder\Bindings\RawBinding;
+use ssba\JsonDecoder\JsonDecoder;
+use ssba\JsonDecoder\PropertyAccessor;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
